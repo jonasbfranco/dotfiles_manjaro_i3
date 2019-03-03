@@ -54,13 +54,13 @@
 #### ⚙ Instalar Powerline
 > https://github.com/powerline/powerline  
 
-* $sudo pacman -S powerline  
-* $sudo apt instal powerline  
-* $sudo mkdir /usr/local/bin/powerline  
-* $sudo git clone https://github.com/powerline/powerline.git /usr/local/bin/powerline  
-* $sudo wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf -O /usr/share/fonts/PowerlineSymbols.otf  
-* $sudo wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf -O /etc/fonts/conf.d/10-powerline-symbols.conf  
-* $sudo echo '. /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh' >> ~/.bashrc  
+> * $sudo pacman -S powerline  
+> * $sudo apt instal powerline  
+> * $sudo mkdir /usr/local/bin/powerline  
+> * $sudo git clone https://github.com/powerline/powerline.git /usr/local/bin/powerline  
+> * $sudo wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf -O /usr/share/fonts/PowerlineSymbols.otf  
+> * $sudo wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf -O /etc/fonts/conf.d/10-powerline-symbols.conf  
+> * $sudo echo '. /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh' >> ~/.bashrc  
 
 
 
