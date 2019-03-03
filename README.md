@@ -9,39 +9,39 @@
 ![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop_print.png)
 
 ### Programas utilizados
-- cava
-- tty-clock
-- pulseaudio
-- pulseaudio-alsa
-- polybar
-- openweather
-- spotify
-- popcorn
-- telegram
-- maailspring
-- neofetch
-- sublime-text
-- visual studio
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio
 
 
 
 ### Configuração dos Workspaces
-> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
-> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Navegador  
-> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Email  
-> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Imagens  
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Home  
+> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal
+> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Navegador 
+> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Email 
 > 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Vídeos/Músicas  
-> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Comunicação  
-> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Escritório  
-> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Editor  
-> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Pessoal  
-> 10&nbsp;=&nbsp;&nbsp;&nbsp;Outros
+> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Editor
+> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Mensageiros
+> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre
+> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre
+> 10&nbsp;=&nbsp;&nbsp;&nbsp;Livre
 
-### Instalação
-#### ⚙ 1° Passo: [Instale o sistema base](https://github.com/jirrezdex/i3-dex/tree/master/archlinux)
-> A instalação do sistema base envolve dois fatores.  
-* 1. Baixar o Etcher para criar o pendrive bootável.  
-* 2. Instalar o Arch Linux.
+
+#### ⚙ 1° Como utilizar meus arquivos 
+> Baixe os arquivos 
+* 1. git clone https://github.com/jonasbfranco/dotfiles_manjaro_i3.git  
+* 2. continua.............
 
 
 
