@@ -14,7 +14,7 @@
 > 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
 > 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock  
 > 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio  
-> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp&nbsp;pulseaudio-alsa  
+> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa  
 > 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar 
 > 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
 > 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify 
@@ -41,8 +41,8 @@
 
 #### ⚙ 1° Como utilizar meus arquivos 
 > Baixe os arquivos 
-* 1. [Baixe os arquivos](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git )git clone  
-* 2. continua.............  
+* 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git ) git clone  
+* 2 . continua.............  
 
 
 
