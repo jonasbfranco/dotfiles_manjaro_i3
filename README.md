@@ -17,8 +17,8 @@
 > 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa  
 > 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar  
 > 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
-> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify 
-> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn 
+> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify  
+> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
 > 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram  
 > 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring  
 > 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
