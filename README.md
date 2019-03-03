@@ -18,7 +18,7 @@
 > 06&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar  
 > 07&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
 > 08&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify  
-> 098&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
+> 09&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
 > 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram  
 > 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring  
 > 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
@@ -41,7 +41,7 @@
 
 #### ⚙ 1° Como utilizar meus arquivos 
 > Baixe os arquivos 
-* 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git ) git clone  
+* 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git) git clone https://github.com/jonasbfranco/dotfiles_manjaro_i3.git   
 * 2 . continua.............  
 
 
