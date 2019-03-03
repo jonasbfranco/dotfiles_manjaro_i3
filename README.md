@@ -10,32 +10,32 @@
 ![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop_print.png)
 
 ### Programas utilizados
-> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava  
-> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
-> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock  
-> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio  
-> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa  
-> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar  
-> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
-> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify  
-> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
-> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram  
-> 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring  
-> 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
-> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text  
-> 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio  
+> 01&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava  
+> 02&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
+> 03&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock  
+> 04&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio  
+> 05&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa  
+> 06&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar  
+> 07&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
+> 08&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify  
+> 098&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn  
+> 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram  
+> 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring  
+> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
+> 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text  
+> 14&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio  
 
 
 ### Configuração dos Workspaces
-> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Home  
-> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
-> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Navegador 
-> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Email 
-> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Vídeos/Músicas  
-> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Editor  
-> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Mensageiros  
-> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
-> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
+> 01&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Home  
+> 02&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Terminal  
+> 03&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Navegador  
+> 04&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Email  
+> 05&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Vídeos/Músicas  
+> 06&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Editor  
+> 07&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Mensageiros  
+> 08&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
+> 09&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
 > 10&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
 
 
