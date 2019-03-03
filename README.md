@@ -15,7 +15,7 @@
 > 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock  
 > 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio  
 > 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio-alsa  
-> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar 
+> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar  
 > 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather  
 > 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify 
 > 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn 
