@@ -10,19 +10,19 @@
 ![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop_print.png)
 
 ### Programas utilizados
-> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava
-> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock
-> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio
-> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp&nbsp;pulseaudio-alsa
-> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar
-> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather
-> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify
-> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn
-> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram
-> 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring
-> 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch
-> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text
-> 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio
+> 1&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava 
+> 2&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;tty-clock 
+> 3&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;pulseaudio 
+> 4&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp&nbsp;pulseaudio-alsa 
+> 5&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;polybar 
+> 6&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;openweather 
+> 7&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;spotify 
+> 8&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;popcorn 
+> 9&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;telegram 
+> 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;maailspring 
+> 11&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;neofetch 
+> 12&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;sublime-text 
+> 13&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;visual studio 
 
 
 
