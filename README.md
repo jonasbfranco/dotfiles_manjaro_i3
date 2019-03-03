@@ -36,7 +36,7 @@
 > 07&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Mensageiros  
 > 08&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
 > 09&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
-> 10&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
+> 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
 
 
 #### ⚙ 1° Como utilizar meus arquivos 
