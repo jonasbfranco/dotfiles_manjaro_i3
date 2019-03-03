@@ -39,6 +39,12 @@
 > 10&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Livre  
 
 
+### Customizacoes
+> 01&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Powerline  
+> 02&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Neofetch  
+> 03&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;Polybar  
+
+
 #### ⚙ 1° Como utilizar meus arquivos 
 > Baixe os arquivos 
 * 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git) git clone https://github.com/jonasbfranco/dotfiles_manjaro_i3.git   
