@@ -1,0 +1,744 @@
+[colors]
+background = ${xrdb:color0:#222}
+background-alt = #444
+;foreground = ${xrdb:color7:#222}
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #FFF
+secondary = #fff
+alert = #f00
+
+
+
+
+;------------;
+; TOPBAR    ;
+;------------;
+
+[bar/PolybarTop]
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+;------------;
+; DIMENSIONS ;
+;------------;
+
+width = 100%
+height = 27
+offset-y = 0
+offset-x = 0
+
+border-top-size = 1
+border-bottom-size = 0
+border-right-size = 6
+border-left-size = 6
+
+;----------;
+; LOCATION ;
+;----------;
+
+bottom = false
+
+;-------;
+; FONTS ;
+;-------;
+
+font-0 = scientifica:style=Regular:size=8:antialias=true;3
+font-1 = Weather Icons:size=8;0
+font-2 = Scientifica:size=8;3
+font-3 = Font Awesome 5 Free:style=Solid:pixelsize=8;2
+
+
+;--------;
+; COLORS ;
+;--------;
+
+background = #222
+background-alt = #555
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #E1D4AE
+secondary = #e60053
+alert = #B2535B
+
+;---------------;
+; MISCELLANEOUS ;
+;---------------;
+
+radius = 6.0
+fixed-center = true
+padding-left = 2
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+modules-left = controle pulseaudio backlight-acpi
+modules-center = xwindow
+modules-right = openweathermap-fullfeatured /*wlan eth*/ wireless-network battery date
+
+;----------;
+; TRAY     ;
+;----------;
+
+tray-position = left
+tray-padding = 2 
+tray-transparent = false
+tray-maxsize = 15
+;tray-background = #0063ff
+
+;wm-restack = bspwm
+;wm-restack = i3
+
+;override-redirect = true
+
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+;------------;
+; BOTBAR    ;
+;------------;
+
+[bar/PolybarBot]
+line-size = 3
+line-color = #f00
+
+border-size = 4
+border-color = #00000000
+
+;------------;
+; DIMENSIONS ;
+;------------;
+
+width = 100%
+height = 27
+offset-y = 0
+offset-x = 0
+
+border-top-size = 0
+border-bottom-size = 4
+border-right-size = 6
+border-left-size = 6
+
+;----------;
+; LOCATION ;
+;----------;
+
+bottom = true
+
+
+;-------;
+; FONTS ;
+;-------;
+
+font-0 = scientifica:style=Regular:size=8:antialias=true;3
+font-1 = "Font Awesome 5 Free:style=Solid:pixelsize=8;2"
+;font-2 = "Font Awesome 5 Free:style=Regular:pixelsize=8;3"
+;font-3 = "Font Awesome 5 Brands:pixelsize=11;3"
+#font-4 = "Scientifica:size=8;3"
+
+;--------;
+; COLORS ;
+;--------;
+
+background = #222
+background-alt = #555
+foreground = #dfdfdf
+foreground-alt = #555
+primary = #E1D4AE
+secondary = #e60053
+alert = #B2535B
+
+;---------------;
+; MISCELLANEOUS ;
+;---------------;
+
+radius = 6.0
+fixed-center = true
+padding-left = 0
+padding-right = 2
+
+module-margin-left = 1
+module-margin-right = 2
+
+modules-left = i3
+modules-center = som voltar tocar-parar avancar musica mpd_bar /*musica spotify*/
+modules-right = /*usuario*/ filesystem memory cpu temperature
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
+
+;---------;
+; MODULES ;
+;---------;
+
+[module/spotify]
+type = custom/script
+interval = 1
+format-prefix = "  "
+format = <label>
+exec = python $HOME/.config/polybar/spotify.py
+format-underline = 
+format-foreground = ${colors.primary}
+
+[module/xwindow]
+type = internal/xwindow
+format-foreground = ${colors.primary}
+label = %title%
+label-maxlen = 80
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
+[module/filesystem]
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+label-mounted =  HD %mountpoint% %percentage_used%% of %total%
+label-mounted-foreground = ${colors.primary}
+label-unmounted = %mountpoint% not mounted
+label-unmounted-foreground = ${colors.primary}
+label-mounted-underline = #4bffdc
+
+[module/i3]
+type = internal/i3
+format = <label-state> <label-mode>
+index-sort = true
+wrapping-scroll = false
+
+ws-icon-1 = 1;
+ws-icon-2 = 2;
+ws-icon-3 = 3;
+ws-icon-4 = 4;
+ws-icon-5 = 5;
+ws-icon-6 = 6;
+ws-icon-7 = 7;
+ws-icon-8 = 8;
+;ws-icon-8 = 9;;
+ws-icon-default = 
+
+
+; Only show workspaces on the same output as the bar
+;pin-workspaces = true
+
+label-mode-padding = 2
+label-mode-foreground = #000000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %name%
+label-focused-background = #555
+label-focused-foreground = ${colors.secondary}
+label-focused-underline = #ffb52a
+label-focused-padding = 2
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %name%
+label-unfocused-padding = 2
+label-unfocused-foreground = ${colors.primary}
+label-unfocused-underline = 
+
+; visible = Active workspace on unfocused monitor
+label-visible = %name%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %name%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+label-urgent-underline = #fff
+
+; Separator in between workspaces
+; label-separator = |
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+
+
+
+[module/xbacklight]
+type = internal/xbacklight
+
+
+format = <label> <bar>
+label =  %percentage%%
+label-foreground = ${colors.primary}
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = ${colors.primary}
+bar-indicator-font = 
+bar-fill = ""
+bar-fill-font = 4
+bar-fill-foreground = #9f78e1
+bar-empty = ""
+bar-empty-font = 4
+bar-empty-foreground = ${colors.foreground-alt}
+
+
+
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " CPU "
+format-prefix-foreground = ${colors.primary}
+format-underline = #0a6cf5 
+label = %percentage:2%%
+label-foreground = ${colors.primary}
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " RAM "
+format-prefix-foreground = ${colors.primary}
+format-underline = #f90000
+label = %percentage_used%%
+label-foreground = ${colors.primary}
+
+[module/wlan]
+type = internal/network
+interface = wlo1
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #0a6cf5
+label-connected = %essid%
+label-connected-foreground = ${colors.primary}
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+
+ramp-signal-foreground = ${colors.primary}
+
+[module/eth]
+type = internal/network
+interface = wlo1
+interval = 3.0
+
+format-connected-underline = #0a6cf5
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+
+###  Data e Hora
+[module/date]
+type = internal/date
+interval = 2
+date = " %A, %d-%m-%y"
+date-alt = " %A, %d-%B-%Y"
+time = " %H:%M"
+time-alt = " %H:%M:%%{F#fba922}%S%%{F-}"
+;format-prefix =  
+format-prefix-foreground = ${colors.primary}
+;format-underline = #0a6cf5
+format-foreground = ${colors.primary}
+label =  %time% %date%
+
+
+
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume =  <label-volume> <bar-volume>
+format-volume-foreground = ${colors.primary}
+label-volume = %percentage%%
+label-volume-foreground = ${colors.primary}
+
+label-muted =   mudo
+label-muted-foreground = ${colors.secondary}
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #B2535B
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 4
+bar-volume-fill = ""
+bar-volume-fill-font = 4
+bar-volume-empty = ""
+bar-volume-empty-font = 4
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ADP1
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = 
+
+format-discharging = <animation-discharging> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = "  "
+format-full-prefix-foreground = ${colors.primary}
+format-full-underline = ${self.format-charging-underline}
+format-full-foreground = ${colors.primary}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-foreground = ${colors.primary}
+format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+format-warn-underline = 
+
+label =  TEMP %temperature-c%
+label-warn =  TEMP %temperature-c%
+label-warn-foreground = ${colors.secondary}
+label-foreground = ${colors.primary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.primary}
+
+[module/som]
+type = internal/alsa
+format-volume = <label-volume><bar-volume>
+format-volume-padding = 1
+label-volume = ""
+label-volume-foreground = ${colors.primary}
+format-muted-prefix = ""
+format-muted-padding = 1
+format-muted-foreground = ${colors.primary}
+label-muted = 
+bar-volume-width = 10
+bar-volume-gradient = false
+bar-volume-indicator-foreground = ${colors.primary}
+bar-volume-indicator = 
+bar-volume-indicator-font = 5
+bar-volume-fill-foreground = ${colors.primary}
+bar-volume-fill = 
+bar-volume-fill-font = 5
+bar-volume-empty-foreground = ${colors.primary}
+bar-volume-empty = 
+bar-volume-empty-font = 5
+
+################ Controlador voltar
+[module/voltar]
+type = custom/text
+content = 
+content-padding = 0
+content-foreground = ${colors.primary}
+click-left = playerctl previous
+
+################ Controlador play & pause
+[module/tocar-parar]
+type = custom/text
+content =  
+content-foreground = ${colors.primary}
+click-left = playerctl play-pause
+
+################ Controlador avançar
+[module/avancar]
+type = custom/text
+content = 
+content-padding = 0
+content-foreground = ${colors.primary}
+click-left = playerctl next
+
+
+################ Música
+[module/musica]
+type = custom/script
+label = %output%
+format-prefix = 
+label-padding = 2
+format-foreground = ${colors.primary}
+label-maxlen = 50
+exec = $HOME/.config/scripts/musica.sh
+
+
+#Temperatura Cidade/Clima
+[module/openweathermap-fullfeatured]
+type = custom/script
+exec = $HOME/.config/scripts/openweathermap-fullfeatured.sh
+interval = 600
+label-font = 10
+label-foreground = #fff
+;format-underline = #0a6cf5
+
+# Usuário
+[module/usuario]
+type = custom/script
+interval = 1
+tail = true
+exec = echo " $USER "
+format-padding = 2
+format-foreground = #fff
+format-underline = #f5a70a
+
+
+# Controle
+[module/controle]
+type = custom/text
+content =  
+content-padding = 1
+content-foreground = ${colors.primary}
+click-left = exec $HOME/.config/scripts/controle.sh
+
+
+[module/mpd_bar]
+type = internal/mpd
+
+; Host where mpd is running (either ip or domain name)
+; Can also be the full path to a unix socket where mpd is running.
+;;host = 127.0.0.1
+;;port = 6600
+;;password = mysecretpassword
+
+; Seconds to sleep between progressbar/song timer sync
+; Default: 1
+interval = 1
+
+; Available tags:
+;   <label-song> (default)
+;   <label-time>
+;   <bar-progress>
+;   <toggle> - gets replaced with <icon-(pause|play)>
+;   <toggle-stop> - gets replaced with <icon-(stop|play)>
+;   <icon-random>
+;   <icon-repeat>
+;   <icon-repeatone> (deprecated)
+;   <icon-single> - Toggle playing only a single song. Replaces <icon-repeatone>
+;   <icon-consume>
+;   <icon-prev>
+;   <icon-stop>
+;   <icon-play>
+;   <icon-pause>
+;   <icon-next>
+;   <icon-seekb>
+;   <icon-seekf>
+format-online =  <label-song> <bar-progress> <label-time> 
+
+;format-playing = ${self.format-online}
+;format-paused = ${self.format-online}
+;format-stopped = ${self.format-online}
+
+; Available tags:
+;   <label-offline>
+;format-offline = <label-offline>
+
+; Available tokens:
+;   %artist%
+;   %album-artist%
+;   %album%
+;   %date%
+;   %title%
+; Default: %artist% - %title%
+label-song =  "%title%"
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+; Available tokens:
+;   %elapsed%
+;   %total%
+; Default: %elapsed% / %total%
+;;abel-time = %elapsed% / %total%
+
+; Available tokens:
+;   None
+label-offline = "mpd is offline"
+
+; Only applies if <icon-X> is used
+icon-play = 
+icon-pause = 
+icon-stop = 
+icon-prev = 
+icon-next = 
+icon-seekb = ⏪
+icon-seekf = ⏩
+icon-random = 🔀
+icon-repeat = 🔁
+icon-repeatone = 🔂
+icon-single = 🔂
+icon-consume = ✀
+
+; Used to display the state of random/repeat/repeatone/single
+; Only applies if <icon-[random|repeat|repeatone|single]> is used
+;;toggle-on-foreground = #ff
+;;toggle-off-foreground = #55
+
+; Only applies if <bar-progress> is used
+bar-progress-width = 10
+bar-progress-gradient = true
+
+bar-progress-indicator = 
+bar-progress-indicator-foreground = #00BCD4
+bar-progress-indicator-font = 2
+
+bar-progress-fill = ━
+bar-progress-foreground-0 = #43a047
+bar-progress-foreground-1 = #43a047
+bar-progress-foreground-2 = #43a047
+bar-progress-foreground-3 = #fdd835
+bar-progress-foreground-4 = #fdd835
+bar-progress-foreground-5 = #fdd835
+bar-progress-foreground-6 = #e53935
+bar-progress-foreground-7 = #e53935
+bar-progress-foreground-8 = #e53935
+bar-progress-fill-font = 2
+
+bar-progress-empty = ┉
+bar-progress-empty-foreground = #00BCD4
+bar-progress-empty-font = 2
+
+#### Bateria Notebook
+[module/consumation]
+type = custom/script
+exec = $HOME/.config/scripts/power.sh
+interval = 2
+
+
+### Rede com consumo Down e Up
+[module/wireless-network]
+type = internal/network
+interface = wlo1
+interval = 1.0
+ping-interval = 10
+
+format-connected = <ramp-signal> <label-connected>
+label-connected = %local_ip%    %downspeed%    %upspeed%
+label-connected-foreground = #fff
+label-disconnected =    not connected
+label-disconnected-foreground = #f90000
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+
+animation-packetloss-0 = 
+animation-packetloss-0-foreground = #ffa64c
+animation-packetloss-1 = 
+animation-packetloss-1-foreground = #fff
+animation-packetloss-framerate = 500
+
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+
+
+
+; vim:ft=dosini
