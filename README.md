@@ -63,19 +63,21 @@
 > * $sudo echo '. /usr/local/bin/powerline/powerline/bindings/bash/powerline.sh' >> ~/.bashrc  
 
 
-![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
+> * cava
+> * tty-clock -C7
+> * neofetch
+
+![Print of Desktop Manjaro i3 - cava - tty-clock - neofetch](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
 
 
+> * Spotify (for instalation = yay -S spotify)
 
-![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
-
-
-
-![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
+![Print of Desktop Manjaro i3 - Spotify](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/spotify.png)
 
 
+> * Telegram ()
+![Print of Desktop Manjaro i3 - Telegram](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/telegram.png)
 
-![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
 
 
 
