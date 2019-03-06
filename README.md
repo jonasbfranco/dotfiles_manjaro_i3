@@ -48,7 +48,12 @@
 #### ⚙ 1° Como utilizar meus arquivos 
 > Baixe os arquivos 
 * 1 . [Baixe os arquivos ](https://github.com/jonasbfranco/dotfiles_manjaro_i3.git) git clone https://github.com/jonasbfranco/dotfiles_manjaro_i3.git   
-* 2 . continua.............  
+* 2 . pasta scrippts torna-los executaveis (sudo chmod +x *.sh)
+* 3 . launch.sh que esta dentro da pasta polybar, também torna-la executavel (sudo chmod +x launch.sh)
+* 4 . instalar jq (sudo pacman -S jq)
+* 5 . instalar rofi (sudo pacman -S rofi)
+* 6 . instalar playerctl (sudo pacman -S playerctl)
+* 7 . enviar os arquivos do conky para sua pasta de destino (sudo cp *.* /usr/share/conky/)
 
 
 #### ⚙ Instalar Powerline
