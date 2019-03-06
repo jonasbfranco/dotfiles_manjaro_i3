@@ -53,7 +53,7 @@
 * 4 . instalar jq (sudo pacman -S jq)
 * 5 . instalar rofi (sudo pacman -S rofi)
 * 6 . instalar playerctl (sudo pacman -S playerctl)
-* 7 . enviar os arquivos do conky para sua pasta de destino (sudo cp *.* /usr/share/conky/)
+* 7 . enviar os arquivos do conky para sua pasta de destino (sudo cp **.** /usr/share/conky/)
 
 
 #### ⚙ Instalar Powerline
