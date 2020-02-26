@@ -7,7 +7,7 @@
 <p align='center'> Files originals of Manjaro i3 </p>
 
 
-![Print of Desktop Manjaro i3](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop_print.png)
+![Print of Desktop Manjaro i3](https://raw.githubusercontent.com/jonasbfranco/dotfiles_manjaro_i3/master/desktop_print.png)
 
 ### Programas utilizados
 > 01&nbsp;&nbsp;&nbsp;=&nbsp;&nbsp;&nbsp;cava  
@@ -74,17 +74,17 @@
 > * tty-clock -C7
 > * neofetch
 
-![Print of Desktop Manjaro i3 - cava - tty-clock - neofetch](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/desktop.png)
+![Print of Desktop Manjaro i3 - cava - tty-clock - neofetch](https://raw.githubusercontent.com/jonasbfranco/dotfiles_manjaro_i3/master/desktop.png)
 
 
 > * Spotify (instalation = yay -S spotify)
 
-![Print of Desktop Manjaro i3 - Spotify](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/spotify.png)
+![Print of Desktop Manjaro i3 - Spotify](https://raw.githubusercontent.com/jonasbfranco/dotfiles_manjaro_i3/master/spotify.png)
 
 
 > * Telegram (instalation = yay -S telegram-desktop)
 
-![Print of Desktop Manjaro i3 - Telegram](https://github.com/jonasbfranco/dotfiles_manjaro_i3/blob/master/telegram.png)
+![Print of Desktop Manjaro i3 - Telegram](https://raw.githubusercontent.com/jonasbfranco/dotfiles_manjaro_i3/master/telegram.png)
 
 
 
